@@ -2,6 +2,7 @@ html,
 body{
     height: 100%;
     font-family:'Roboto', sans-serif;
+    font-style: normal;
 }
 
 .accent{
@@ -71,12 +72,7 @@ body{
     line-height: 24px;
     text-decoration: none;
     }
-
-main{
-    height: 100%;
-    font-family:'Roboto', sans-serif;
-}
-
+    
 .back-ground{
     background-color: #2E2F42;
 }
@@ -102,4 +98,89 @@ main{
     line-height: 24px;
 }
 
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
+.subject{
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text{
+    color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.heading{
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.caption{
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.background{
+    background-color: #F4F4FD;
+}
+
+.color{
+    background-color: #FFFFFF;
+}
+
+.subject-section{
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text-section{
+    color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer{
+    background-color: #2E2F42;
+}
+
+.text-footer{
+    color: #E7E9FC;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
