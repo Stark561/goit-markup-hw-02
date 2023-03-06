@@ -40,6 +40,13 @@ body{
     text-decoration: none;
 }
 
+.portfolio-item{
+    color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
 .contact{
     color: #2E2F42;
     font-weight: 500;
@@ -166,7 +173,7 @@ body{
     line-height: 1.5;
 }
 
-footer{
+.footer{
     background-color: #2E2F42;
 }
 
@@ -184,5 +191,74 @@ footer{
     color: #E7E9FC;
     font-family: 'Roboto';
     font-weight: 400;
+    line-height: 1.5;
+}
+
+.studio-item{
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.portfolio-item{
+    color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.All{
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    }
+
+.WebSite{
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.App{
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.Design{
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.Marketing{
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     line-height: 1.5;
 }
