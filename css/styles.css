@@ -1,19 +1,11 @@
-html,
 body{
-    height: 100%;
     font-family:'Roboto', sans-serif;
-    font-style: normal;
     font-size: 16px;
+    background-color: #FFFFFF;
 }
 
 .accent{
     color:#4D5AE5;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    text-decoration: none;
 }
 
 .logo{
@@ -33,7 +25,7 @@ body{
     text-decoration: none;
 }
 
-.portfolio{
+.now-link{
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
@@ -47,44 +39,24 @@ body{
     text-decoration: none;
 }
 
-.contact{
-    color: #2E2F42;
-    font-weight: 500;
-    line-height: 1.5;
-    text-decoration: none;
-}
-
 .list{
     list-style: none;
 }
 
-.mail{
+.link{
     color: #434455;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     text-decoration: none;
+    letter-spacing: normal;
 }
 
-.number{
-    color: #434455;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    text-decoration: none;
-    }
-    
-.back-ground{
+.hero{
     background-color: #2E2F42;
 }
 
-.title{
+.hero-title{
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
    
@@ -113,36 +85,20 @@ body{
     overflow: hidden;
 }
 
-.subject{
+.future-title{
     color: #2E2F42;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 
-.text{
+.future-text{
     color: #434455;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
 }
 
 .heading{
     color: #2E2F42;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-}
-
-.caption{
-    color: #2E2F42;
-
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -152,24 +108,15 @@ body{
     background-color: #F4F4FD;
 }
 
+.caption{
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
 .color{
     background-color: #FFFFFF;
-}
-
-.subject-section{
-    color: #2E2F42;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-}
-
-.text-section{
-    color: #434455;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
 }
 
 .footer{
@@ -192,13 +139,6 @@ body{
     line-height: 1.5;
 }
 
-.studio-item{
-    color: #2E2F42;
-    font-weight: 500;
-    line-height: 1.5;
-    text-decoration: none;
-}
-
 .portfolio-item{
     color: #4D5AE5;
     font-weight: 500;
@@ -206,51 +146,17 @@ body{
     text-decoration: none;
 }
 
-.All{
-    background-color: #F4F4FD;
+.button-all{
+    background: #404BBF;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    color: #4D5AE5;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
-    }
-
-.WebSite{
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    color: #4D5AE5;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
-.App{
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    color: #4D5AE5;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-}
-
-.Design{
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    color: #4D5AE5;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-}
-
-.Marketing{
+.now-button{
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
