@@ -1,15 +1,25 @@
 body{
     font-family:'Roboto', sans-serif;
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;    
+}
+
+:root{
+    --main-color: #4D5AE5;
+    --brand-color: #FFFFFF;
+    --button-color: #404BBF;
+    --link-color:#2E2F42;
+    --logo-color:#F4F4FD;
+    --border-color:  #E7E9FC;
+    --now-link-color: #434455;
 }
 
 .accent{
-    color:#4D5AE5;
+    color: var(--main-color);
 }
 
 .logo{
-    color: #2E2F42;
+    color: var(--link-color);
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -17,25 +27,19 @@ body{
     text-decoration: none;
 }
 
-.studio{
-    color: #4D5AE5;
-    font-weight: 500;
-    line-height: 1.5;
-    text-decoration: none;
-}
-
 .now-link{
-    color: #2E2F42;
+    color: var(--link-color);
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
 }
 
-.portfolio-item{
-    color: #4D5AE5;
-    font-weight: 500;
-    line-height: 1.5;
-    text-decoration: none;
+.now-link:hover{
+    color: var(--main-color);
+}
+
+.now-link:focus{
+    color: var(--main-color);
 }
 
 .list{
@@ -43,30 +47,51 @@ body{
 }
 
 .link{
-    color: #434455;
+    color: var(--now-link-color);
     font-style: normal;
     line-height: 1.5;
     text-decoration: none;
     letter-spacing: normal;
 }
 
+.link:hover{
+    color: var(--button-color);
+}
+
+.link:focus{
+    color: var(--button-color);
+}
+
 .hero{
-    background-color: #2E2F42;
+    background-color: var(--link-color);
 }
 
 .hero-title{
-    color: #FFFFFF;
+    color: var(--brand-color);
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: normal;
 }
 
 .button{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
-    font-family: 'Roboto';
+    color: var(--brand-color);
+    background-color: var(--main-color);
+    border-radius: 4px;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--button-color);
+    color: var(--brand-color);
+}
+
+.button:focus{
+    background-color: var(--button-color);
+    color: var(--brand-color)
 }
 
 .visually-hidden{
@@ -83,45 +108,39 @@ body{
 }
 
 .future-title{
-    color: #2E2F42;
-    font-weight: 500;
+    color: var(--link-color);
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: normal;
 }
 
 .future-text{
-    color: #434455;
+    color: var(--now-link-color);
     line-height: 1.5;
+    letter-spacing: normal;
 }
 
-.heading{
-    color: #2E2F42;
-    font-weight: 700;
+.section-title{
+    color: var(--link-color);
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: normal;
 }
 
 .background{
-    background-color: #F4F4FD;
-}
-
-.caption{
-    color: #2E2F42;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    background-color: var(--logo-color);
 }
 
 .color{
-    background-color: #FFFFFF;
+    background-color: var(--brand-color);
 }
 
 .footer{
-    background-color: #2E2F42;
+    background-color: var(--link-color);
 }
 
 .logo-footer{
-    color: #F4F4FD;
+    color: var(--logo-color);
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -130,36 +149,29 @@ body{
 }
 
 .text-footer{
-    color: #E7E9FC;
-    font-weight: 400;
+    color: var(--border-color);
     line-height: 1.5;
-}
-
-.portfolio-item{
-    color: #4D5AE5;
-    font-weight: 500;
-    line-height: 1.5;
-    text-decoration: none;
-}
-
-.button-all{
-    background: #404BBF;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #FFFFFF;
-    cursor: pointer;
+    letter-spacing: normal;
 }
 
 .now-button{
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    background-color: var(--logo-color);
+    border: 1px solid var(--border-color);
     border-radius: 4px;
-    color: #4D5AE5;
+    color: var(--main-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     cursor: pointer;
+}
+
+.now-button:hover{
+    background: var(--button-color);
+    color: var(--brand-color);
+}
+
+.now-button:focus{
+    background: var(--button-color);
+    color: var(--brand-color);
 }
