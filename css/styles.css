@@ -1,12 +1,12 @@
 body{
     font-family:'Roboto', sans-serif;
     font-size: 16px;
-    background-color: #FFFFFF;    
+    background-color: var(--white-color);
 }
 
 :root{
     --main-color: #4D5AE5;
-    --brand-color: #FFFFFF;
+    --white-color: #FFFFFF;
     --button-color: #404BBF;
     --link-color:#2E2F42;
     --logo-color:#F4F4FD;
@@ -67,14 +67,14 @@ body{
 }
 
 .hero-title{
-    color: var(--brand-color);
+    color: var(--white-color);
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: normal;
+    letter-spacing: 0.02em;
 }
 
 .button{
-    color: var(--brand-color);
+    color: var(--white-color);
     background-color: var(--main-color);
     border-radius: 4px;
     font-family: inherit;
@@ -86,12 +86,12 @@ body{
 
 .button:hover{
     background-color: var(--button-color);
-    color: var(--brand-color);
+    color: var(--white-color);
 }
 
 .button:focus{
     background-color: var(--button-color);
-    color: var(--brand-color)
+    color: var(--white-color);
 }
 
 .visually-hidden{
@@ -109,22 +109,24 @@ body{
 
 .future-title{
     color: var(--link-color);
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: normal;
+    letter-spacing: 0.02em;
 }
 
 .future-text{
     color: var(--now-link-color);
     line-height: 1.5;
-    letter-spacing: normal;
+    letter-spacing: 0.02em;
 }
 
 .section-title{
     color: var(--link-color);
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: normal;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .background{
@@ -132,7 +134,7 @@ body{
 }
 
 .color{
-    background-color: var(--brand-color);
+    background-color: var(--white-color);
 }
 
 .footer{
@@ -149,14 +151,14 @@ body{
 }
 
 .text-footer{
-    color: var(--border-color);
+    color: var(--white-color);
     line-height: 1.5;
-    letter-spacing: normal;
+    letter-spacing: 0.02em;
 }
 
 .now-button{
     background-color: var(--logo-color);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--white-color);
     border-radius: 4px;
     color: var(--main-color);
     font-family: 'Roboto';
@@ -168,10 +170,10 @@ body{
 
 .now-button:hover{
     background: var(--button-color);
-    color: var(--brand-color);
+    color: var(--white-color);
 }
 
 .now-button:focus{
     background: var(--button-color);
-    color: var(--brand-color);
+    color: var(--white-color);
 }
